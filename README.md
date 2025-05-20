@@ -45,49 +45,14 @@ A powerful Inventory Management System built using the Laravel framework. Manage
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Laravel 11.x  
-- **Database**: MySQL / PostgreSQL  
-- **Frontend**: Tailwind CSS / Bootstrap  
+- **Backend**: Laravel 12 
+- **Database**: MySQL
+- **Frontend**:  Bootstrap  Css
 - **JS Framework**: Livewire / Vue.js (optional)  
 - **Authentication**: Laravel Breeze / Jetstream  
 - **Permissions**: Spatie Laravel Permissions  
 
----
 
-## 📁 Folder Structure (Simplified)
-
-├── app/
-│ ├── Http/
-│ │ └── Controllers/
-│ │ ├── ProductController.php
-│ │ ├── PurchaseController.php
-│ │ ├── SaleController.php
-│ ├── Models/
-│ ├── Product.php
-│ ├── Supplier.php
-│ ├── Warehouse.php
-├── database/
-│ ├── migrations/
-│ ├── seeders/
-├── resources/
-│ ├── views/
-│ │ ├── dashboard.blade.php
-│ │ ├── products/
-│ │ ├── sales/
-│ ├── js/
-│ ├── css/
-├── routes/
-│ ├── web.php
-│ ├── api.php
-├── public/
-│ └── assets/
-├── .env
-
-yaml
-Copy
-Edit
-
----
 
 ## ⚙️ Installation
 
@@ -107,7 +72,7 @@ Then update .env with your database credentials:
 
 env
 
-DB_DATABASE=your_database
+DB_DATABASE=your_databas
 DB_USERNAME=root
 DB_PASSWORD=your_password
 Step 4: Run Migrations and Seeders
@@ -120,9 +85,7 @@ Visit the app at: http://localhost:8000
 
 🧑‍💼 Default Admin Login
 
-Email: admin@example.com
-Password: password
-You can change credentials in the Users table or via a custom seeder.
+
 
 📊 Optional Features
 POS (Point of Sale) System
