@@ -22,36 +22,41 @@
       <div class="card shadow-sm rounded">
         <div class="card-body">
           <h3 class="mb-4">Add New Product</h3>
-          <form action="" method="">
-            <div class="mb-3">
-              <label for="productName" class="form-label">Product Name</label>
-              <input type="text" class="form-control" id="productName" name="name" required>
-            </div>
+          <form action="{{Route('product.store')}}" method="post">
+            @csrf
+
 
             <div class="mb-3">
+              <label for="productName" class="form-label">Product Name</label>
+              <input type="text" class="form-control" id="" name="name" required>
+            </div>
+
+            <!-- <div class="mb-3">
               <label for="productCategory" class="form-label">Category</label>
               <select class="form-select" id="productCategory" name="category" required>
                 <option value="">Select Category</option>
-                <option value="1">Electronics</option>
-                <option value="2">Clothing</option>
-                <option value="3">Groceries</option>
+           
               </select>
-            </div>
+            </div> -->
 
             <div class="mb-3">
-              <label for="price" class="form-label">Price (BDT)</label>
-              <input type="number" class="form-control" id="price" name="price" required>
+              <label for="price" class="form-label">Price[BDT]</label>
+              <input type="text" class="form-control" id="" name="price" required>
             </div>
 
             <div class="mb-3">
               <label for="quantity" class="form-label">Quantity</label>
-              <input type="number" class="form-control" id="quantity" name="quantity" required>
+              <input type="text" class="form-control" id="" name="quantity" required>
             </div>
 
             <div class="mb-3">
               <label for="description" class="form-label">Description</label>
-              <textarea class="form-control" id="description" name="description" rows="4"></textarea>
+              <textarea class="form-control" id="description" name="desc" rows="4"></textarea>
             </div>
+               <!-- <div class="mb-3">
+              <label for="image" class="form-label">Image</label>
+              <input class="form-control" id="description" name="image" >
+            </div> -->
 
             <button type="submit" class="btn btn-primary">Save Product</button>
           </form>

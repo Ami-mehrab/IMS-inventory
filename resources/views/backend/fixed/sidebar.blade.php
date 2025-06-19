@@ -15,7 +15,7 @@
         </li>
         <li class="pc-item">
         <li class="pc-item">
-          <a href="https://themewagon.github.io/DattaAble/dashboard/index.html" class="pc-link">
+          <a href="{{route('dashboard')}}" class="pc-link">
             <span class="pc-micon">
               <i data-feather="home"></i>
             </span>
@@ -23,11 +23,18 @@
           </a>
         </li>
         <li class="pc-item">
-          <a href="{{Route('product.create')}}" class="pc-link">
+          <a href="{{Route('product.list')}}" class="pc-link">
             <span class="pc-micon">
               <i data-feather="home"></i>
             </span>
             <span class="pc-mtext">Product</span>
+          </a>
+          <li class="pc-item">
+          <a href="{{Route('cat.list')}}" class="pc-link">
+            <span class="pc-micon">
+              <i data-feather="home"></i>
+            </span>
+            <span class="pc-mtext">Category</span>
           </a>
         </li>
         <li class="pc-item pc-caption">
