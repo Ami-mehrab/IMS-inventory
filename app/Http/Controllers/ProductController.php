@@ -28,6 +28,8 @@ class ProductController extends Controller
            
 
         ]);
+        toastr()->title('Product creation')->options(['progressBar' => false])
+        ->success('Product has been created ');
         return redirect()->route('product.list');
     }
 

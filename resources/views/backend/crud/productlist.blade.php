@@ -29,7 +29,7 @@
                                     <td>{{$products->name}}</td>
                                     <td>{{$products->price}}</td>
                                     <td>{{$products->quantity}}</td>
-                                    <td>{{$products->desc}}</td>
+                                    <td>{{$products->description}}</td>
                                     <td><img src="" class=""> </td>
                                     <td>
                                         <a href="{{route('product.delete',$products->id)}}" class="btn btn-info btn-sm">Delete</a>

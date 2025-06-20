@@ -21,13 +21,13 @@ class AuthenticationController extends Controller
         if($check)
         {
 
-            
+            toastr()->success('logged in  successfully!');
             return redirect()->route('dashboard');
 
         }
         else{
 
-
+            toastr()->error('invalid credentials');
 
             return redirect()->back();
 

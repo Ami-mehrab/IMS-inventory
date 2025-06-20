@@ -25,11 +25,16 @@ class CategoryController extends Controller
             "name"=>$request->name
 
         ]);
+        toastr()->title('Category creation')->options(['progressBar' => false])
+        ->success('Category has been created ');
+    
         return redirect()->route('cat.list');
         
     }
     public function delete($id){
         category::find($id)->delete();
+
+        toastr()->warning('Deleted');
         return redirect()->back();
     }
 }

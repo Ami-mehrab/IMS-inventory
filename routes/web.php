@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::group(['prefix'=>'superadmin'],function(){
+Route::group(['prefix'=>'admin'],function(){
 
 
 //login 
