@@ -21,8 +21,11 @@ Route ::post('/loggedin',[AuthenticationController::class,'afterlogin'])->name('
 
 Route::group(['middleware'=>'auth'],function(){
 
+    Route::get('/logout',[AuthenticationController::class,'logout'])->name('log.out');
 
     Route::get('/',[DashboardController::class,'dashboard'])->name('dashboard');
+
+
 
     //route for backend.crud
     

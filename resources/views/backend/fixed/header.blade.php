@@ -64,12 +64,9 @@
           <i class="ti ti-settings"></i>
           <span>Settings</span>
         </a>
-        <a href="#!" class="dropdown-item">
-          <i class="ti ti-headset"></i>
-          <span>Support</span>
-        </a>
      
-        <a href="#!" class="dropdown-item">
+     
+        <a href="{{route('log.out')}}" class="dropdown-item">
           <i class="ti ti-power"></i>
           <span>Logout</span>
         </a>
@@ -82,106 +79,8 @@
         <span class="badge bg-success-500 text-white rounded-full z-10 absolute right-0 top-0">3</span>
       </a>
       <div class="dropdown-menu dropdown-notification dropdown-menu-end pc-h-dropdown p-2">
-        <div class="dropdown-header flex items-center justify-between py-4 px-5">
-          <h5 class="m-0">Notifications</h5>
-          <a href="#!" class="btn btn-link btn-sm">Mark all read</a>
-        </div>
-        <div class="dropdown-body header-notification-scroll relative py-4 px-5"
-          style="max-height: calc(100vh - 215px)">
-          <p class="text-span mb-3">Today</p>
-          <div class="card mb-2">
-            <div class="card-body">
-              <div class="flex gap-4">
-                <div class="shrink-0">
-                  <img class="img-radius w-12 h-12 rounded-0" src="https://themewagon.github.io/DattaAble/assets/images/user/avatar-1.jpg" alt="Generic placeholder image" />
-                </div>
-                <div class="grow">
-                  <span class="float-end text-sm text-muted">2 min ago</span>
-                  <h5 class="text-body mb-2">UI/UX Design</h5>
-                  <p class="mb-0">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of
-                    type and scrambled it to make a type
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-2">
-            <div class="card-body">
-              <div class="flex gap-4">
-                <div class="shrink-0">
-                  <img class="img-radius w-12 h-12 rounded-0" src="https://themewagon.github.io/DattaAble/assets/images/user/avatar-2.jpg" alt="Generic placeholder image" />
-                </div>
-                <div class="grow">
-                  <span class="float-end text-sm text-muted">1 hour ago</span>
-                  <h5 class="text-body mb-2">Message</h5>
-                  <p class="mb-0">Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <p class="text-span mb-3 mt-4">Yesterday</p>
-          <div class="card mb-2">
-            <div class="card-body">
-              <div class="flex gap-4">
-                <div class="shrink-0">
-                  <img class="img-radius w-12 h-12 rounded-0" src="https://themewagon.github.io/DattaAble/assets/images/user/avatar-4.jpg" alt="Generic placeholder image" />
-                </div>
-                <div class="grow ms-3">
-                  <span class="float-end text-sm text-muted">2 hour ago</span>
-                  <h5 class="text-body mb-2">Forms</h5>
-                  <p class="mb-0">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of
-                    type and scrambled it to make a type
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-2">
-            <div class="card-body">
-              <div class="flex gap-4">
-                <div class="shrink-0">
-                  <img class="img-radius w-12 h-12 rounded-0" src="https://themewagon.github.io/DattaAble/assets/images/user/avatar-5.jpg" alt="Generic placeholder image" />
-                </div>
-                <div class="grow ms-3">
-                  <span class="float-end text-sm text-muted">12 hour ago</span>
-                  <h5 class="text-body mb-2">Challenge invitation</h5>
-                  <p class="mb-2">
-                    <strong>Jonny aber</strong>
-                    invites to join the challenge
-                  </p>
-                  <button class="btn btn-sm btn-outline-secondary me-2">Decline</button>
-                  <button class="btn btn-sm btn-primary">Accept</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-2">
-            <div class="card-body">
-              <div class="flex gap-4">
-                <div class="shrink-0">
-                  <img class="img-radius w-12 h-12 rounded-0" src="https://themewagon.github.io/DattaAble/assets/images/user/avatar-2.jpg" alt="Generic placeholder image" />
-                </div>
-                <div class="grow ms-3">
-                  <span class="float-end text-sm text-muted">5 hour ago</span>
-                  <h5 class="text-body mb-2">Security</h5>
-                  <p class="mb-0">
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of
-                    type and scrambled it to make a type
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="text-center py-2">
-          <a href="#!" class="text-danger-500 hover:text-danger-600 focus:text-danger-600 active:text-danger-600">
-            Clear all Notifications
-          </a>
+     
+    
         </div>
       </div>
     </li>
@@ -194,11 +93,11 @@
         <div class="dropdown-header flex items-center justify-between py-4 px-5 bg-primary-500">
           <div class="flex mb-1 items-center">
             <div class="shrink-0">
-              <img src="../assets/images/user/avatar-2.jpg" alt="user-image" class="w-10 rounded-full" />
+              <img src="" alt="user-image" class="w-10 rounded-full" />
             </div>
             <div class="grow ms-3">
-              <h6 class="mb-1 text-white">Carson Darrin 🖖</h6>
-              <span class="text-white">carson.darrin@company.io</span>
+              <h6 class="mb-1 text-white">Admin</h6>
+              <span class="text-white">info.darrin@company.io</span>
             </div>
           </div>
         </div>
@@ -215,26 +114,18 @@
             <a href="#" class="dropdown-item">
               <span>
                 <svg class="pc-icon text-muted me-2 inline-block">
-                  <use xlink:href="#custom-share-bold"></use>
-                </svg>
-                <span>Share</span>
-              </span>
-            </a>
-            <a href="#" class="dropdown-item">
-              <span>
-                <svg class="pc-icon text-muted me-2 inline-block">
                   <use xlink:href="#custom-lock-outline"></use>
                 </svg>
                 <span>Change Password</span>
               </span>
             </a>
             <div class="grid my-3">
-              <button class="btn btn-primary flex items-center justify-center">
+              <!-- <button class="btn btn-primary flex items-center justify-center">
                 <svg class="pc-icon me-2 w-[22px] h-[22px]">
                   <use xlink:href="#custom-logout-1-outline"></use>
                 </svg>
                 Logout
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
